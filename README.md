@@ -1,7 +1,9 @@
 # SumReduction_CUDA
-Compare the elapsed time of Sum Reduction on CPU with CUDA.
+Compare the elapsed time of Sum-Reduction.
 
-It needs NVIDIA GPU supporting CUDA & CUDA toolkit.
+Requirements
+------------
+CUDA toolkit & NVIDIA GPU supporting CUDA
 
 Usage
 ------------
@@ -19,4 +21,4 @@ Command line options:
     * shfl_s : shuffle + shared atomicAdd
     * shfl_q : quantitative reduction with shuffle
   
-You can use 'demo.sh' for test every methods.
+You can use the script 'demo.sh' for test every methods.
